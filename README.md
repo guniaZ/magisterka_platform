@@ -1,0 +1,1 @@
+# magisterka_platform
