@@ -15,8 +15,6 @@ public class ItemPainting : TriggerEvent
             return;
 
         isUsed = true;
-        
-
 
         SoundManager.PlaySfx(sound);
         Destroy(gameObject);
