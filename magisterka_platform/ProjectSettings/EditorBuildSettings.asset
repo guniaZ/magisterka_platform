@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scene/Gunia_04.unity
+    path: 
     guid: 491a657a04327c6498a9b1651c8cf4cd
+  - enabled: 1
+    path: Assets/Scene/Start_screen.unity
+    guid: 3f005268d5b1f9b4fb63270bf2bfa697
   - enabled: 1
     path: Assets/Scene/Gunia_level_1.unity
     guid: caf1924b929cf7a49be168a3d04c7fa3
+  - enabled: 1
+    path: Assets/Scene/Gunia_level_2.unity
+    guid: fd0cf468ecdfb1346889e0b031763002
   m_configObjects: {}

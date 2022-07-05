@@ -8,8 +8,10 @@ public class StTrigger : MonoBehaviour
     public GameObject camera;
     public NNModel modelAsset;
 
+
     private void OnTriggerEnter(Collider other)
     {
+        
         camera.GetComponent<StyleTransfer>().modelAsset = modelAsset;
         camera.GetComponent<StyleTransfer>().enabled = true;
         /*
@@ -26,5 +28,6 @@ public class StTrigger : MonoBehaviour
         camera.GetComponent<StyleTransfer>().enabled = true;
         */
     }
+
 
 }
